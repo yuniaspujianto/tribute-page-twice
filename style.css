@@ -1,0 +1,103 @@
+html{
+    /*Mengubah keseluruhan pada tag html*/
+    font-size: 10px;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+  
+  /* Contoh import font dari Google Fonts*/
+  
+  body{
+    /*Mengubah keseluruhan halaman pada body*/
+    font-family: Montserrat, sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+  }
+  
+  h1 {
+    /*mengubah tampilan heading pertama pada halaman*/
+    font-size: 4rem;
+  }
+  
+  @media (max-width: 460px) {
+    /*@media digunakan untuk perangkat yang berbeda pada tampilan tag heading pertama*/
+    h1 {
+      font-size:3.5rem;
+      line-height:1.2;
+    }
+  }
+  h3 {
+    /*Mengubah tampilan heading kedua*/
+    font-size:3.25rem;
+  }
+  
+  a {
+    color: #477ca7;
+  }
+  
+  a:visited {
+    color: #74638f;
+  }
+  
+  #main {
+    padding: 50px;
+    border-radius: 5px;
+    background: #eee;
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0px;
+    }
+  }
+  
+  img {
+    /*pengaturan pada gambar tengah*/
+    max-width: 100%;
+    display: block;
+    -webkit-filter: grayscale(90%);
+  }
+  
+  #img-div {
+    
+    background: white;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 5px;
+  
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+      
+    }
+  }
+  
+  #headline {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+  
+  a {
+    line-height: 5rem;
+    
+  }
+  
